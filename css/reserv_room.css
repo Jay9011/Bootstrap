@@ -1,0 +1,59 @@
+#selectBookDate {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #3466b1;
+    font-size: 0.8rem;
+    color: #FFF;
+}
+
+#selectBookDate > div {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#selectBookDate > div > div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    border-left: 1px solid #6182b3;
+    border-right: 1px solid #6182b3;
+}
+
+#selectBookDate > div > div .title {
+    font-size: 0.7rem;
+}
+
+#selectBookDate #dateBtn {
+    padding: 0.5rem;
+    border: 1px solid #3466b1;
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    background-color: #3466b1;
+    color: #FFF;
+}
+
+#selectBookDate select {
+    padding: 0.5rem 0;
+    border: 1px solid #3466b1;
+    background-color: #3466b1;
+    color: #FFF;
+}
+
+#wrapper > div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
