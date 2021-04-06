@@ -1,0 +1,113 @@
+#selectBookDate {
+    position: relative;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #3466b1;
+    font-size: 0.8rem;
+    color: #FFF;
+
+    >div {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+        flex-wrap: wrap;
+        width: 100%;
+
+        >div {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex: 1 1 auto;
+            border-left: 1px solid #6182b3;
+            border-right: 1px solid #6182b3;
+
+            .title {
+                font-size: 0.7rem;
+            }
+
+            #dateBtn {
+                padding: 0.5rem;
+                border: 1px solid #3466b1;
+                border-radius: 3px;
+                background-color: #3466b1;
+                color: #FFF;
+            }
+
+            select {
+                padding: 0.5rem;
+                border: 1px solid #3466b1;
+                background-color: #3466b1;
+                background-image: none;
+                color: #FFF;
+                appearance: none;
+
+                &::-ms-expand {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+#wrapper>div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#v_datepicker {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    >div {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        >div {
+            flex: 1 1 auto;
+        }
+    }
+}
+
+#reserv_room_list {
+    position: relative;
+    margin-top: 10px;
+
+    #reserv_room_btn {
+        position: absolute;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.7rem;
+        background-color: #FFF;
+
+        button {
+            margin: 0.3rem;
+            border: 0;
+            border-radius: 3px;
+            padding: 0.3rem;
+            color: #FFF;
+            background-color: #3466b1;
+        }
+    }
+
+    #public_room {
+        position: absolute;
+        background-color: #FFF;
+    }
+
+    #for_employees {
+        position: absolute;
+        background-color: #FFF;
+    }
+}
