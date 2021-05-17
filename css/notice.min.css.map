@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,IADA,CACA,SAAS,AAAC,CACN,OAAO,CAAE,IAAI,CAChB,AAHL,AAKI,IALA,CAKA,WAAW,AAAC,CACR,SAAS,CAAE,IAAI,CAClB,AAPL,AASI,IATA,CASA,UAAU,AAAC,CACP,KAAK,CAAE,IAAI,CACd,AAXL,AAaI,IAbA,CAaA,YAAY,AAAC,CACT,KAAK,CAAE,IAAI,CACd",
+    "sources": [
+        "notice.scss"
+    ],
+    "names": [],
+    "file": "notice.min.css"
+}

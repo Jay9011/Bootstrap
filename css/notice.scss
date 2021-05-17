@@ -1,0 +1,19 @@
+#frm {
+    .flex_box {
+        display: flex;
+    }
+
+    .input_text {
+        min-width: 6rem;
+    }
+
+    .input_box {
+        width: 100%;
+    }
+
+    .input_title {
+        width: 100%;
+    }
+}
+
+@media (min-width:768px) {}
